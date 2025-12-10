@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smile Dental Clinic
 
-## Getting Started
+A modern, patient-centric web application for a premier dental chain in Chandigarh, designed to provide a seamless digital experience for patients.
 
-First, run the development server:
+## 🌟 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Smile Dental Clinic's website serves as a comprehensive digital front door, offering patients easy access to world-class dental care. The platform features an intuitive interface for browsing treatments, meeting specialists, and booking appointments seamlessly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Hero Preview](https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dynamic Hero Section**: Interactive carousel showcasing treatments, patient care, and facility highlights.
+- **Smart Chat Assistant**: An intelligent "Smile Assistant" widget that answers common queries (pricing, location, treatments) and facilitates instant booking.
+- **Comprehensive Service Listing**: Detailed information on treatments including Root Canals, Implants, Orthodontics, and Pediatric Dentistry.
+- **Instant Booking System**: Streamlined appointment booking forms with "Service", "Date", and "Message" fields.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices.
+- **Trust Indicators**: Highlighting sterilization protocols, specialist teams, and transparency.
 
-## Learn More
+## 🛠️ Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Carousel**: [Embla Carousel](https://www.embla-carousel.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run this project locally:
 
-## Deploy on Vercel
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Simranjeetkaur-art/Smile-Dental-clinic.git
+    cd smile-dental-clinic
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 📄 License
+
+This project is proprietary and intended for Smile Dental Clinic use.
+
+---
+*Developed with a focus on clinical excellence and patient safety.*
