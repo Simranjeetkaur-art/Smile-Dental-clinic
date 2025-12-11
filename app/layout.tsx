@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Smile Dental Clinic | Best Dentist in Chandigarh",
-  description: "Smile Dental Clinic offers world-class dental care in Chandigarh. Services include implants, braces, root canals, and cosmetic dentistry.",
+  description:
+    "Smile Dental Clinic offers world-class dental care in Chandigarh. Services include implants, braces, root canals, and cosmetic dentistry.",
 };
 
 export default function RootLayout({

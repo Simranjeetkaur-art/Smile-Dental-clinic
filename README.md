@@ -30,17 +30,20 @@ Smile Dental Clinic's website serves as a comprehensive digital front door, offe
 To run this project locally:
 
 1.  **Clone the repository:**
+
     ```bash
     git clone https://github.com/Simranjeetkaur-art/Smile-Dental-clinic.git
     cd smile-dental-clinic
     ```
 
 2.  **Install dependencies:**
+
     ```bash
     npm install
     ```
 
 3.  **Run the development server:**
+
     ```bash
     npm run dev
     ```
@@ -53,4 +56,5 @@ To run this project locally:
 This project is proprietary and intended for Smile Dental Clinic use.
 
 ---
-*Developed with a focus on clinical excellence and patient safety.*
+
+_Developed with a focus on clinical excellence and patient safety._

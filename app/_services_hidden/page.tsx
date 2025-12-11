@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import {
   Stethoscope,
   Smile,
@@ -115,7 +114,7 @@ export default function ServicesPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-50">
-      {/* Hero Section */}
+      {/* Clove-style Hero Section */}
       <section className="bg-white border-b">
         <div className="container mx-auto px-4 md:px-6 py-12 md:py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -134,43 +133,40 @@ export default function ServicesPage() {
                 patient safety.
               </p>
               <div className="flex gap-4 pt-4">
-                <Button asChild className="rounded-full bg-primary hover:bg-primary/90 px-8 h-12 text-base">
-                  <Link href="/book">Book an Appointment</Link>
+                <Button className="rounded-full bg-primary hover:bg-primary/90 px-8 h-12 text-base">
+                  Book an Appointment
                 </Button>
               </div>
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
+              <img
                 src="https://images.unsplash.com/photo-1600170311833-c2cfbcd65532?q=80&w=1000&auto=format&fit=crop"
                 alt="Advanced Dental Equipment"
-                fill
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Treatments Grid with Filter */}
+      {/* Treatments Grid with Filter styling */}
       <div className="container mx-auto px-4 md:px-6 py-16 md:py-24">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Sidebar / Categories */}
-          <div className="w-full md:w-64 flex-shrink-0 space-y-2">
+          <div className="w-full md:w-64 flex-shrink-0 space-y-2 hidden md:block">
             <h3 className="font-bold text-slate-900 mb-4 px-2 text-lg">
               Specialties
             </h3>
-            <div className="flex md:flex-col gap-2 overflow-x-auto pb-2 md:pb-0">
-              {categories.map((cat, i) => (
-                <button
-                  key={i}
-                  onClick={() => setActiveCategory(cat)}
-                  className={`whitespace-nowrap text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors ${activeCategory === cat ? "bg-primary text-white shadow-md" : "text-slate-600 hover:bg-slate-100 bg-white"}`}
-                >
-                  {cat}
-                </button>
-              ))}
-            </div>
-            <div className="mt-8 p-6 bg-blue-50 rounded-xl border border-blue-100 hidden md:block">
+            {categories.map((cat, i) => (
+              <button
+                key={i}
+                onClick={() => setActiveCategory(cat)}
+                className={`w-full text-left px-4 py-3 rounded-lg text-sm font-medium transition-colors ${activeCategory === cat ? "bg-primary text-white shadow-md" : "text-slate-600 hover:bg-slate-100"}`}
+              >
+                {cat}
+              </button>
+            ))}
+            <div className="mt-8 p-6 bg-blue-50 rounded-xl border border-blue-100">
               <h4 className="font-bold text-blue-900 mb-2">Need Help?</h4>
               <p className="text-sm text-blue-700 mb-4">
                 Not sure which treatment you need?
@@ -190,7 +186,7 @@ export default function ServicesPage() {
               {filteredTreatments.map((item, index) => (
                 <div
                   key={index}
-                  className="group bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-xl hover:border-primary/20 transition-all duration-300 flex flex-col h-full"
+                  className="group bg-white rounded-xl p-6 shadow-sm border border-slate-100 hover:shadow-xl hover:border-primary/20 transition-all duration-300 flex flex-col h-full animate-in fade-in zoom-in-95 duration-300"
                 >
                   <div className="mb-4 h-12 w-12 rounded-full bg-slate-50 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
                     <item.icon className="h-6 w-6" />
@@ -230,7 +226,7 @@ export default function ServicesPage() {
             Join thousands of happy patients who trust Smile Dental for their
             oral healthcare needs.
           </p>
-          <div className="flex justify-center gap-4 flex-wrap">
+          <div className="flex justify-center gap-4">
             <Button
               asChild
               size="lg"
@@ -252,4 +248,3 @@ export default function ServicesPage() {
     </div>
   );
 }
-

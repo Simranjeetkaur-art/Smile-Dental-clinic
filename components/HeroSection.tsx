@@ -20,7 +20,7 @@ const slides = [
         title: "World-Class Dental Care",
         highlight: "Near You",
         description: "Experience pain-free dentistry with our team of specialists. Advanced technology, strict sterilization, and a patient-first approach.",
-        image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1000&auto=format&fit=crop",
+        image: "/images/hero/slide1.jpg",
         ctaPrimary: "Book Appointment",
         ctaSecondary: "Locate Clinic"
     },
@@ -29,7 +29,7 @@ const slides = [
         title: "Permanent Solution for",
         highlight: "Missing Teeth",
         description: " reclaim your confidence with our lifetime warranty dental implants. Painless procedures designed for immediate loading.",
-        image: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?q=80&w=1000&auto=format&fit=crop",
+        image: "/images/hero/slide2.jpg",
         ctaPrimary: "Consult Implantologist",
         ctaSecondary: "View pricing"
     },
@@ -38,7 +38,7 @@ const slides = [
         title: "Gentle Care for",
         highlight: "Little Smiles",
         description: "Making dental visits fun! Our specialized pediatric dentists ensure a fear-free experience for your children.",
-        image: "https://images.unsplash.com/photo-1616851608753-15794711f5d6?q=80&w=1000&auto=format&fit=crop",
+        image: "/images/hero/slide3.jpg",
         ctaPrimary: "Book Kids Visit",
         ctaSecondary: "Meet the Team"
     },
@@ -47,7 +47,7 @@ const slides = [
         title: "Design Your",
         highlight: "Perfect Smile",
         description: "From veneers to teeth whitening, we create smiles that light up the room. Digital smile design for predictable results.",
-        image: "https://images.unsplash.com/photo-1588776814546-1ffcfef07a3c?q=80&w=1000&auto=format&fit=crop",
+        image: "/images/hero/slide4.jpg",
         ctaPrimary: "Smile Makeover",
         ctaSecondary: "View Gallery"
     },
@@ -56,7 +56,7 @@ const slides = [
         title: "State-of-the-Art",
         highlight: "Dental Clinic",
         description: "Experience the future of dentistry with 3D Scanners, Laser Dentistry, and Pain-free injection systems.",
-        image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1000&auto=format&fit=crop",
+        image: "/images/hero/slide5.jpg",
         ctaPrimary: "Take a Tour",
         ctaSecondary: "Our Technology"
     }

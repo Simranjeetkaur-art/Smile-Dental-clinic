@@ -113,6 +113,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Advanced Dental Equipment */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-slate-900 mb-6">
+              Advanced <span className="text-primary">Dental Equipment</span>
+            </h2>
+            <p className="text-slate-600 max-w-3xl mx-auto text-lg">
+              We use the latest technology to ensure precise diagnosis and painless treatment.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-center text-center p-6 border rounded-xl hover:shadow-lg transition-all duration-300">
+              <div className="w-full h-48 bg-slate-100 mb-6 rounded-lg overflow-hidden relative">
+                {/* Placeholder until real image */}
+                <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium">Digital OPG X-Ray</div>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-900">Digital OPG X-Ray</h3>
+              <p className="text-slate-600">Full mouth panoramic scanning for precise diagnosis with minimal radiation.</p>
+            </div>
+            <div className="flex flex-col items-center text-center p-6 border rounded-xl hover:shadow-lg transition-all duration-300">
+              <div className="w-full h-48 bg-slate-100 mb-6 rounded-lg overflow-hidden relative">
+                <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium">Intraoral Camera</div>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-900">Intraoral Camera</h3>
+              <p className="text-slate-600">See what we see. High-definition diagnostic transparency on screen.</p>
+            </div>
+            <div className="flex flex-col items-center text-center p-6 border rounded-xl hover:shadow-lg transition-all duration-300">
+              <div className="w-full h-48 bg-slate-100 mb-6 rounded-lg overflow-hidden relative">
+                <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium">Laser Dentistry</div>
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-slate-900">Laser Dentistry</h3>
+              <p className="text-slate-600">Painless and bloodless procedures with advanced soft tissue lasers.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Trust Smile Dental (Redesigned) */}
       <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4 md:px-6">
